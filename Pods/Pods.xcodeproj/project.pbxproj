@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		370FE6B7BD2AAF5FF298EAF84D61B7C4 /* KontaktSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 310C06F387E75E231FA06D1731FBCD15 /* Build configuration list for PBXAggregateTarget "KontaktSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = KontaktSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		005F123DA9BEC0A9F4DB942F70FE2E36 /* UNCodingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 822D983ACABE0C688DCF7A5EDEFE169A /* UNCodingObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		03708B20D0C8045003C865E358AD27A0 /* Pods-BeaconCtrl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E42F830D291DD00EEA08C1CBA5221A0 /* Pods-BeaconCtrl-dummy.m */; };
+		11AF32DA48E4CF8FF58390113D419AF8 /* UNCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 3244E385BDAE5583BF00FF2AE76A9805 /* UNCoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		12031CF06454CE770228F82ACF3F00AD /* UNCodingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1D946A31B0FD5E2B38063F3AED55F /* UNCodingUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1EF44E867BF5D93758EF796BDC6CAB7F /* UNURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = E44F6317834FE0DB91644F951C0AD8D7 /* UNURLConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3DD5947F751AEC1900F3CE6434BF8592 /* UNRequestFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A89601641DDB1E79B7BDB979D6CF9450 /* UNRequestFile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5CBBA1C4BD8F025D83C8F3C87435AF8D /* SAMCache+Image.h in Headers */ = {isa = PBXBuildFile; fileRef = 46075C1B7735EE22FEB14701D4867A23 /* SAMCache+Image.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		603FA15720DDC79C1FB6D29F13BF91B6 /* UNRequestFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E47AFAE1BE8F82FDEAFC0AC2066739F /* UNRequestFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		764E631DCAAB8AC70A39E6CFB08BC033 /* UNURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B873C08E3EE5A1A9C410D974ABE5628D /* UNURLConnection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		80A27DAD0EA7B94BB3CA26B120C3ACE5 /* SAMCache+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8775C256F0CE0B56040BA474A9D8EC90 /* SAMCache+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86DBA326384E723ACFD9CFFAFA03EAAC /* SAMCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49364971A0546D302BB052DBB09EC08D /* SAMCache-dummy.m */; };
+		A2CE3A1B6C5E93794FA3AEE158AEC3B7 /* UNMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E06D113F728E33E6DC59B6D3681B8C8 /* UNMutableURLRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C10620F6861AA1BC4854BDDA78728CEE /* UNCodingObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C991DD1FFFB2ABE09F6E59B31FD11E /* UNCodingObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA7F1ADE02A1730FAAEF19BA3A3A8154 /* SAMCache+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C9FA56CBF2A8861E0CE5DC9DBC1A0D /* SAMCache+Image.m */; };
+		CEFE803B2525BA089957A041FC5A9124 /* SAMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F77F86482313AE67767BDA5FE6747130 /* SAMCache.m */; };
+		DD58958122624FAE4DC76B5D13337A2E /* UNMutableURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE5D4AB757F562A5C9B9F7E54894780 /* UNMutableURLRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E06511A994D47CE20FCD175149B3C21A /* UNNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9637C0CB663A8B110F31AC5EFC961A6E /* UNNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E959BD3A04ABB246FE24E1DECCC32DA8 /* UNCodingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 85406CA1FF0D9B570810895E5576A83B /* UNCodingUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EBE81CBB113924E1C87CFFFFFA34CB48 /* SAMCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E88CDA5691EC8874D15511B97D0175B /* SAMCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7854B7F1ECBA8E91ED551F3865262C9 /* UNNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4B5B24DBD6F67B3D9F37C19A441F54 /* UNNetworking-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		026DA8C979CF048DA444E83380660D3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB17668E15FB22F60B9EC0791E14F64B;
+			remoteInfo = UNNetworking;
+		};
+		A17EC0BD318B6C0A7B0B0ABD0EE20445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370FE6B7BD2AAF5FF298EAF84D61B7C4;
+			remoteInfo = KontaktSDK;
+		};
+		ED3B3AF0CAAFCB7E562268B08632EF62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE93AC4F05AC033A57975DC120313A3D;
+			remoteInfo = SAMCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F7CCB49C654481E0DF26EBE34081FB4 /* Pods-BeaconCtrl-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeaconCtrl-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23048CCB98D3F189EB21D2ECA853F44B /* UNNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UNNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		3244E385BDAE5583BF00FF2AE76A9805 /* UNCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNCoding.h; path = UNNetworking/UNCoding.h; sourceTree = "<group>"; };
+		373AB13E161AAB44EA1A3B180C3C4EB6 /* Pods-BeaconCtrl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeaconCtrl.release.xcconfig"; sourceTree = "<group>"; };
+		3C0AD351959AF439C1D336B10CF30659 /* KontaktSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KontaktSDK.debug.xcconfig; sourceTree = "<group>"; };
+		3E88CDA5691EC8874D15511B97D0175B /* SAMCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMCache.h; path = SAMCache/SAMCache.h; sourceTree = "<group>"; };
+		46075C1B7735EE22FEB14701D4867A23 /* SAMCache+Image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SAMCache+Image.h"; path = "SAMCache/SAMCache+Image.h"; sourceTree = "<group>"; };
+		49364971A0546D302BB052DBB09EC08D /* SAMCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMCache-dummy.m"; sourceTree = "<group>"; };
+		4E06D113F728E33E6DC59B6D3681B8C8 /* UNMutableURLRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNMutableURLRequest.m; path = UNNetworking/UNMutableURLRequest.m; sourceTree = "<group>"; };
+		5CE1D946A31B0FD5E2B38063F3AED55F /* UNCodingUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNCodingUtil.m; path = UNNetworking/UNCodingUtil.m; sourceTree = "<group>"; };
+		6C4B5B24DBD6F67B3D9F37C19A441F54 /* UNNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UNNetworking-dummy.m"; sourceTree = "<group>"; };
+		6DE852D5CDFA5B7084FAF3D4928767ED /* SAMCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMCache-prefix.pch"; sourceTree = "<group>"; };
+		6E42F830D291DD00EEA08C1CBA5221A0 /* Pods-BeaconCtrl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeaconCtrl-dummy.m"; sourceTree = "<group>"; };
+		6E47AFAE1BE8F82FDEAFC0AC2066739F /* UNRequestFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNRequestFile.h; path = UNNetworking/UNRequestFile.h; sourceTree = "<group>"; };
+		78786EEDA36B16C3CCE5CA69AA865259 /* libUNNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libUNNetworking.a; path = libUNNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2703B050E568969C9E36E2E40D6A8E /* Pods-BeaconCtrl-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeaconCtrl-acknowledgements.plist"; sourceTree = "<group>"; };
+		8038D5F27C175D98542E720BD02B027D /* libSAMCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSAMCache.a; path = libSAMCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		822D983ACABE0C688DCF7A5EDEFE169A /* UNCodingObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNCodingObject.m; path = UNNetworking/UNCodingObject.m; sourceTree = "<group>"; };
+		85406CA1FF0D9B570810895E5576A83B /* UNCodingUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNCodingUtil.h; path = UNNetworking/UNCodingUtil.h; sourceTree = "<group>"; };
+		8775C256F0CE0B56040BA474A9D8EC90 /* SAMCache+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SAMCache+Private.h"; path = "SAMCache/SAMCache+Private.h"; sourceTree = "<group>"; };
+		9637C0CB663A8B110F31AC5EFC961A6E /* UNNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNNetworking.h; path = UNNetworking/UNNetworking.h; sourceTree = "<group>"; };
+		971BD1CE22A200EDAB0B3DEB03F5B8A7 /* KontaktSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KontaktSDK.release.xcconfig; sourceTree = "<group>"; };
+		9B6483CD3939C0C9D4A8D6E7600FF470 /* Pods-BeaconCtrl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeaconCtrl.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A89601641DDB1E79B7BDB979D6CF9450 /* UNRequestFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNRequestFile.m; path = UNNetworking/UNRequestFile.m; sourceTree = "<group>"; };
+		B783FBB5B3471358C14B9471B965AEEE /* SAMCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMCache.release.xcconfig; sourceTree = "<group>"; };
+		B873C08E3EE5A1A9C410D974ABE5628D /* UNURLConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNURLConnection.m; path = UNNetworking/UNURLConnection.m; sourceTree = "<group>"; };
+		B911ED6F9A5230564589E0FD733D3169 /* KontaktSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KontaktSDK.framework; path = Cocoapods/iOS/KontaktSDK.framework; sourceTree = "<group>"; };
+		C3C991DD1FFFB2ABE09F6E59B31FD11E /* UNCodingObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNCodingObject.h; path = UNNetworking/UNCodingObject.h; sourceTree = "<group>"; };
+		C6C9FA56CBF2A8861E0CE5DC9DBC1A0D /* SAMCache+Image.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SAMCache+Image.m"; path = "SAMCache/SAMCache+Image.m"; sourceTree = "<group>"; };
+		D4533E3C01F9D716A468EAC0215306F1 /* libPods-BeaconCtrl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BeaconCtrl.a"; path = "libPods-BeaconCtrl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D639D37B0E11EB7AB91EAD5EC5D8440A /* SAMCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMCache.debug.xcconfig; sourceTree = "<group>"; };
+		D72F8102FEC64F77810A7DD82BF561D1 /* UNNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UNNetworking.release.xcconfig; sourceTree = "<group>"; };
+		E44F6317834FE0DB91644F951C0AD8D7 /* UNURLConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNURLConnection.h; path = UNNetworking/UNURLConnection.h; sourceTree = "<group>"; };
+		EA70EC0C8EAA4BE62F243EF4EB9394D2 /* UNNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UNNetworking-prefix.pch"; sourceTree = "<group>"; };
+		F77F86482313AE67767BDA5FE6747130 /* SAMCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMCache.m; path = SAMCache/SAMCache.m; sourceTree = "<group>"; };
+		FEE5D4AB757F562A5C9B9F7E54894780 /* UNMutableURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNMutableURLRequest.h; path = UNNetworking/UNMutableURLRequest.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39A2D6AC3DAD4F1B44D0E4AC8254DFA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83758AB4A0B6419EBE7F586E697AFFB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914347F2AFA8391D7622BA8CD6843748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E94AB5E664CFF3B9723408276B079F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4533E3C01F9D716A468EAC0215306F1 /* libPods-BeaconCtrl.a */,
+				8038D5F27C175D98542E720BD02B027D /* libSAMCache.a */,
+				78786EEDA36B16C3CCE5CA69AA865259 /* libUNNetworking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B905EEB644BB07B73A5808E71AB5991 /* SAMCache */ = {
+			isa = PBXGroup;
+			children = (
+				3E88CDA5691EC8874D15511B97D0175B /* SAMCache.h */,
+				F77F86482313AE67767BDA5FE6747130 /* SAMCache.m */,
+				46075C1B7735EE22FEB14701D4867A23 /* SAMCache+Image.h */,
+				C6C9FA56CBF2A8861E0CE5DC9DBC1A0D /* SAMCache+Image.m */,
+				8775C256F0CE0B56040BA474A9D8EC90 /* SAMCache+Private.h */,
+				92BAF8622A6887B72E25E212A5D2AA3C /* Support Files */,
+			);
+			name = SAMCache;
+			path = SAMCache;
+			sourceTree = "<group>";
+		};
+		53427D4782418F5CFD4709C14999A32D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B355640CB9E329EC7F78370DA40E9615 /* Pods-BeaconCtrl */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		76202FF05CF4ADD0CBA39E60A27F368A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C0AD351959AF439C1D336B10CF30659 /* KontaktSDK.debug.xcconfig */,
+				971BD1CE22A200EDAB0B3DEB03F5B8A7 /* KontaktSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KontaktSDK";
+			sourceTree = "<group>";
+		};
+		92BAF8622A6887B72E25E212A5D2AA3C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49364971A0546D302BB052DBB09EC08D /* SAMCache-dummy.m */,
+				6DE852D5CDFA5B7084FAF3D4928767ED /* SAMCache-prefix.pch */,
+				D639D37B0E11EB7AB91EAD5EC5D8440A /* SAMCache.debug.xcconfig */,
+				B783FBB5B3471358C14B9471B965AEEE /* SAMCache.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAMCache";
+			sourceTree = "<group>";
+		};
+		9BC6E36349B12926F81FF717258B80D1 /* UNNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				3244E385BDAE5583BF00FF2AE76A9805 /* UNCoding.h */,
+				C3C991DD1FFFB2ABE09F6E59B31FD11E /* UNCodingObject.h */,
+				822D983ACABE0C688DCF7A5EDEFE169A /* UNCodingObject.m */,
+				85406CA1FF0D9B570810895E5576A83B /* UNCodingUtil.h */,
+				5CE1D946A31B0FD5E2B38063F3AED55F /* UNCodingUtil.m */,
+				FEE5D4AB757F562A5C9B9F7E54894780 /* UNMutableURLRequest.h */,
+				4E06D113F728E33E6DC59B6D3681B8C8 /* UNMutableURLRequest.m */,
+				9637C0CB663A8B110F31AC5EFC961A6E /* UNNetworking.h */,
+				6E47AFAE1BE8F82FDEAFC0AC2066739F /* UNRequestFile.h */,
+				A89601641DDB1E79B7BDB979D6CF9450 /* UNRequestFile.m */,
+				E44F6317834FE0DB91644F951C0AD8D7 /* UNURLConnection.h */,
+				B873C08E3EE5A1A9C410D974ABE5628D /* UNURLConnection.m */,
+				A80A16EB174CF0AB29087F369F32EC92 /* Support Files */,
+			);
+			name = UNNetworking;
+			path = UNNetworking;
+			sourceTree = "<group>";
+		};
+		A80A16EB174CF0AB29087F369F32EC92 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C4B5B24DBD6F67B3D9F37C19A441F54 /* UNNetworking-dummy.m */,
+				EA70EC0C8EAA4BE62F243EF4EB9394D2 /* UNNetworking-prefix.pch */,
+				23048CCB98D3F189EB21D2ECA853F44B /* UNNetworking.debug.xcconfig */,
+				D72F8102FEC64F77810A7DD82BF561D1 /* UNNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UNNetworking";
+			sourceTree = "<group>";
+		};
+		AD45D10B3A83B2356828FFB88C057BD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFB7E0BFCEBE6FBB2A3166278923D581 /* KontaktSDK */,
+				2B905EEB644BB07B73A5808E71AB5991 /* SAMCache */,
+				9BC6E36349B12926F81FF717258B80D1 /* UNNetworking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFB7E0BFCEBE6FBB2A3166278923D581 /* KontaktSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D8C23319AE97DC0F6451AE0AFFA45AD2 /* Frameworks */,
+				76202FF05CF4ADD0CBA39E60A27F368A /* Support Files */,
+			);
+			name = KontaktSDK;
+			path = KontaktSDK;
+			sourceTree = "<group>";
+		};
+		B355640CB9E329EC7F78370DA40E9615 /* Pods-BeaconCtrl */ = {
+			isa = PBXGroup;
+			children = (
+				0F7CCB49C654481E0DF26EBE34081FB4 /* Pods-BeaconCtrl-acknowledgements.markdown */,
+				7D2703B050E568969C9E36E2E40D6A8E /* Pods-BeaconCtrl-acknowledgements.plist */,
+				6E42F830D291DD00EEA08C1CBA5221A0 /* Pods-BeaconCtrl-dummy.m */,
+				9B6483CD3939C0C9D4A8D6E7600FF470 /* Pods-BeaconCtrl.debug.xcconfig */,
+				373AB13E161AAB44EA1A3B180C3C4EB6 /* Pods-BeaconCtrl.release.xcconfig */,
+			);
+			name = "Pods-BeaconCtrl";
+			path = "Target Support Files/Pods-BeaconCtrl";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				AD45D10B3A83B2356828FFB88C057BD5 /* Pods */,
+				0E94AB5E664CFF3B9723408276B079F9 /* Products */,
+				53427D4782418F5CFD4709C14999A32D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8C23319AE97DC0F6451AE0AFFA45AD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B911ED6F9A5230564589E0FD733D3169 /* KontaktSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		164CD2EA68D45C6DC12705A0EB979605 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E58FEC8EBD1A791F69DA4E4DF9BFFE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AF32DA48E4CF8FF58390113D419AF8 /* UNCoding.h in Headers */,
+				C10620F6861AA1BC4854BDDA78728CEE /* UNCodingObject.h in Headers */,
+				E959BD3A04ABB246FE24E1DECCC32DA8 /* UNCodingUtil.h in Headers */,
+				DD58958122624FAE4DC76B5D13337A2E /* UNMutableURLRequest.h in Headers */,
+				E06511A994D47CE20FCD175149B3C21A /* UNNetworking.h in Headers */,
+				603FA15720DDC79C1FB6D29F13BF91B6 /* UNRequestFile.h in Headers */,
+				1EF44E867BF5D93758EF796BDC6CAB7F /* UNURLConnection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFAF1D1778DBFCCC3F0C97B57C26FACA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBBA1C4BD8F025D83C8F3C87435AF8D /* SAMCache+Image.h in Headers */,
+				80A27DAD0EA7B94BB3CA26B120C3ACE5 /* SAMCache+Private.h in Headers */,
+				EBE81CBB113924E1C87CFFFFFA34CB48 /* SAMCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28EF9A226F73E22BA6EB79909BA80079 /* Pods-BeaconCtrl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E6AE29BD010231C6E9B8E1998177E4 /* Build configuration list for PBXNativeTarget "Pods-BeaconCtrl" */;
+			buildPhases = (
+				164CD2EA68D45C6DC12705A0EB979605 /* Headers */,
+				F045BC3925A400A88611BEBBCE7208CD /* Sources */,
+				914347F2AFA8391D7622BA8CD6843748 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DE274483872E43531DC5B921F0576B3 /* PBXTargetDependency */,
+				1D4F6F8F18A097BF8FE342E82DA236CA /* PBXTargetDependency */,
+				AD1533E55115156FC3889E50047A2CE9 /* PBXTargetDependency */,
+			);
+			name = "Pods-BeaconCtrl";
+			productName = "Pods-BeaconCtrl";
+			productReference = D4533E3C01F9D716A468EAC0215306F1 /* libPods-BeaconCtrl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BB17668E15FB22F60B9EC0791E14F64B /* UNNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3B21DC6594000E5D30E95B4B8A8E61 /* Build configuration list for PBXNativeTarget "UNNetworking" */;
+			buildPhases = (
+				6E58FEC8EBD1A791F69DA4E4DF9BFFE9 /* Headers */,
+				03D971982387B5110E77D356969CA381 /* Sources */,
+				39A2D6AC3DAD4F1B44D0E4AC8254DFA0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UNNetworking;
+			productName = UNNetworking;
+			productReference = 78786EEDA36B16C3CCE5CA69AA865259 /* libUNNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EE93AC4F05AC033A57975DC120313A3D /* SAMCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D27EBFC699D17A7BD278AD1A31A117 /* Build configuration list for PBXNativeTarget "SAMCache" */;
+			buildPhases = (
+				DFAF1D1778DBFCCC3F0C97B57C26FACA /* Headers */,
+				076B9939561EFB56C8CCA3C4F5FF3871 /* Sources */,
+				83758AB4A0B6419EBE7F586E697AFFB9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAMCache;
+			productName = SAMCache;
+			productReference = 8038D5F27C175D98542E720BD02B027D /* libSAMCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0E94AB5E664CFF3B9723408276B079F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				370FE6B7BD2AAF5FF298EAF84D61B7C4 /* KontaktSDK */,
+				28EF9A226F73E22BA6EB79909BA80079 /* Pods-BeaconCtrl */,
+				EE93AC4F05AC033A57975DC120313A3D /* SAMCache */,
+				BB17668E15FB22F60B9EC0791E14F64B /* UNNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03D971982387B5110E77D356969CA381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005F123DA9BEC0A9F4DB942F70FE2E36 /* UNCodingObject.m in Sources */,
+				12031CF06454CE770228F82ACF3F00AD /* UNCodingUtil.m in Sources */,
+				A2CE3A1B6C5E93794FA3AEE158AEC3B7 /* UNMutableURLRequest.m in Sources */,
+				F7854B7F1ECBA8E91ED551F3865262C9 /* UNNetworking-dummy.m in Sources */,
+				3DD5947F751AEC1900F3CE6434BF8592 /* UNRequestFile.m in Sources */,
+				764E631DCAAB8AC70A39E6CFB08BC033 /* UNURLConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076B9939561EFB56C8CCA3C4F5FF3871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7F1ADE02A1730FAAEF19BA3A3A8154 /* SAMCache+Image.m in Sources */,
+				86DBA326384E723ACFD9CFFAFA03EAAC /* SAMCache-dummy.m in Sources */,
+				CEFE803B2525BA089957A041FC5A9124 /* SAMCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F045BC3925A400A88611BEBBCE7208CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03708B20D0C8045003C865E358AD27A0 /* Pods-BeaconCtrl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D4F6F8F18A097BF8FE342E82DA236CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMCache;
+			target = EE93AC4F05AC033A57975DC120313A3D /* SAMCache */;
+			targetProxy = ED3B3AF0CAAFCB7E562268B08632EF62 /* PBXContainerItemProxy */;
+		};
+		8DE274483872E43531DC5B921F0576B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KontaktSDK;
+			target = 370FE6B7BD2AAF5FF298EAF84D61B7C4 /* KontaktSDK */;
+			targetProxy = A17EC0BD318B6C0A7B0B0ABD0EE20445 /* PBXContainerItemProxy */;
+		};
+		AD1533E55115156FC3889E50047A2CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UNNetworking;
+			target = BB17668E15FB22F60B9EC0791E14F64B /* UNNetworking */;
+			targetProxy = 026DA8C979CF048DA444E83380660D3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02F10FD607FBAD120E1EA929396E2790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6483CD3939C0C9D4A8D6E7600FF470 /* Pods-BeaconCtrl.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37F3460949E7CE4B5282389D2A042310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D639D37B0E11EB7AB91EAD5EC5D8440A /* SAMCache.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMCache/SAMCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMCache;
+				PRODUCT_NAME = SAMCache;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3997D804001FE33CE134B94491F7973C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971BD1CE22A200EDAB0B3DEB03F5B8A7 /* KontaktSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		54EAE79961191EEE196EE73648711D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23048CCB98D3F189EB21D2ECA853F44B /* UNNetworking.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/UNNetworking/UNNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = UNNetworking;
+				PRODUCT_NAME = UNNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8AE68DA9491283CBC37BB2F4A0728A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72F8102FEC64F77810A7DD82BF561D1 /* UNNetworking.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/UNNetworking/UNNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = UNNetworking;
+				PRODUCT_NAME = UNNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94AD62B7FBB72A2CF771196398D78A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0AD351959AF439C1D336B10CF30659 /* KontaktSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA44FB8E70D692419644815770F30C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B783FBB5B3471358C14B9471B965AEEE /* SAMCache.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMCache/SAMCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMCache;
+				PRODUCT_NAME = SAMCache;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9DC3FB843561C8BBE4C6F45F3E06084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373AB13E161AAB44EA1A3B180C3C4EB6 /* Pods-BeaconCtrl.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E6AE29BD010231C6E9B8E1998177E4 /* Build configuration list for PBXNativeTarget "Pods-BeaconCtrl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F10FD607FBAD120E1EA929396E2790 /* Debug */,
+				B9DC3FB843561C8BBE4C6F45F3E06084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		310C06F387E75E231FA06D1731FBCD15 /* Build configuration list for PBXAggregateTarget "KontaktSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94AD62B7FBB72A2CF771196398D78A0E /* Debug */,
+				3997D804001FE33CE134B94491F7973C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D27EBFC699D17A7BD278AD1A31A117 /* Build configuration list for PBXNativeTarget "SAMCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F3460949E7CE4B5282389D2A042310 /* Debug */,
+				AA44FB8E70D692419644815770F30C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3B21DC6594000E5D30E95B4B8A8E61 /* Build configuration list for PBXNativeTarget "UNNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EAE79961191EEE196EE73648711D34 /* Debug */,
+				8AE68DA9491283CBC37BB2F4A0728A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
