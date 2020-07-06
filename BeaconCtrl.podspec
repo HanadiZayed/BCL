@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.dependency "SAMCache"
   s.dependency "UNNetworking"
-  s.dependency "KontaktSDK-OLD"
+  s.dependency "KontaktSDK"
 
   s.requires_arc = true
 end
